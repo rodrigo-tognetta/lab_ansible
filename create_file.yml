@@ -1,0 +1,9 @@
+---
+- name: Create an empty file
+  hosts: linux
+
+  tasks:
+  - name: Create a new empty file
+    ansible.builtin.file:
+      dest: /tmp/mynewfile.txt
+      state: touch

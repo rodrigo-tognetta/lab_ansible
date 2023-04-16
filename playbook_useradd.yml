@@ -1,0 +1,9 @@
+---
+- name: New User Creation
+  hosts: linux
+  tasks:
+    - name: adding new users to servers
+      ansible.builtin.user:
+        name: rodrigo
+        state: present
+        comment: User Created by Ansible Playbook

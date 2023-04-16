@@ -1,0 +1,10 @@
+---
+- name: Create a content on an empty file
+  hosts: linux
+
+  tasks:
+  - name: Create a new content on an empty file
+    copy:
+      dest: /tmp/mynewfile.txt
+      content: 
+        This is the content of the file.
