@@ -1,6 +1,6 @@
 ---
 - name: Example from an Ansible Playbook
-  hosts: windows
+  hosts: all
   become: false
   gather_facts: false
   tasks:

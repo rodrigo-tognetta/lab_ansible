@@ -1,6 +1,6 @@
 ---
 - name: Create a content on an empty file
-  hosts: linux
+  hosts: all
 
   tasks:
   - name: Create a new content on an empty file

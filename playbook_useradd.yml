@@ -1,6 +1,6 @@
 ---
 - name: New User Creation
-  hosts: linux
+  hosts: all
   tasks:
     - name: adding new users to servers
       ansible.builtin.user:
